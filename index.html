@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Igor Stankic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+  </head>
+  <body>
+    <nav class="nav">
+      <img
+        src="img/logo.png"
+        alt="my image"
+        id="logo"
+        data-version-number="3.0"
+      />
+      <ul class="nav__links">
+        <li class="nav__item">
+          <a class="nav__link" href="#section-1">introduction</a>
+        </li>
+
+        <li class="nav__item">
+          <a class="nav__link" href="#section-2">elaboration</a>
+        </li>
+
+        <li class="nav__item">
+          <a class="nav__link" href="#section-3">conclusion</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header__div">
+      <h1 class="header">
+        Welcome <span class="header__span">to</span> my
+        <span class="header__span">page</span>
+      </h1>
+      <img class="header__img" src="img/igors.png" />
+    </div>
+
+    <!-- SECTION 1 -->
+
+    <section class="section section--hidden" id="section-1">
+      <div class="section__title">
+        <h2 class="section__description">introduction</h2>
+        <h3 class="section__header">
+          Everything that you need to know about me
+        </h3>
+      </div>
+
+      <div class="introduction">
+        <img
+          src="img/a.png"
+          data-src="img/digital.jpg"
+          alt="Computer"
+          class="introduction__img lazy-img"
+        />
+        <div class="introduction__feature">
+          <h5 class="introduction__header">introduction</h5>
+          <p>
+            my name is igor, i am 25 years old. I am also a professional
+            economist by profession, but as you can see, I also work on web
+            programming
+          </p>
+        </div>
+
+        <div class="introduction__feature">
+          <h5 class="introduction__header">elaboration</h5>
+          <p>
+            of web technologies for now I use CSS, HTML, vanilla JS, bootstrap
+            and a bit of React. Although not many can also say that I know Java,
+            NodeJS and have solid knowledge of SQL
+          </p>
+        </div>
+        <img
+          src="img/b.png"
+          data-src="img/grow.jpg"
+          alt="Plant"
+          class="introduction__img lazy-img"
+        />
+
+        <img
+          src="img/d.png"
+          data-src="img/card.jpg"
+          alt="Credit card"
+          class="introduction__img lazy-img"
+        />
+        <div class="introduction__feature">
+          <h5 class="introduction__header">conclusion</h5>
+          <p>
+            I have been learning everything about the web for a year and a half
+            now. I also try to learn as much as possible about software testing
+            or QA, which is also a very interesting job for me. But I put my
+            emphasis on the web.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--  SECTION 2 -->
+
+    <section class="section section--hidden" id="section-2">
+      <div class="section__title">
+        <h2 class="section__description">elaboration</h2>
+        <h3 class="section__header">Let's dive into it</h3>
+      </div>
+
+      <div class="elaborations">
+        <div class="elaborations__tab-container">
+          <button
+            class="btn elaborations__tab elaborations__tab--1 elaborations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>ups and downs
+          </button>
+          <button
+            class="btn elaborations__tab elaborations__tab--2"
+            data-tab="2"
+          >
+            <span>02</span>explanation
+          </button>
+          <button
+            class="btn elaborations__tab elaborations__tab--3"
+            data-tab="3"
+          >
+            <span>03</span>pleasure
+          </button>
+        </div>
+        <div
+          class="elaborations__content elaborations__content--1 elaborations__content--active"
+        >
+          <div class="elaborations__icon elaborations__icon--1"></div>
+          <h5 class="elaborations__header">
+            You always have to work on yourself
+          </h5>
+          <p>
+            From the first day I started learning web programming, it wasn’t
+            always easy. But it was always interesting and a lot of ups and
+            downs. The first time I managed to type an HTML file, I felt like
+            Bill Gates.
+          </p>
+        </div>
+
+        <div class="elaborations__content elaborations__content--2">
+          <div class="elaborations__icon elaborations__icon--2"></div>
+          <h5 class="elaborations__header">
+            everything you need to know about me
+          </h5>
+          <p>
+            Then I started learning: HTML, CSS, Bootstrap, React, Javascript,
+            SQL ... It was all a challenge, it still is. After that, I slowly
+            started to go deeper and deeper into the web and all the challenges
+            it brings
+          </p>
+        </div>
+        <div class="elaborations__content elaborations__content--3">
+          <div class="elaborations__icon elaborations__icon--3"></div>
+          <h5 class="elaborations__header">
+            one step closer to the goal, soon
+          </h5>
+          <p>
+            Everything in life is a challenge, so is this. No matter how much
+            you need, you always have to work on yourself and improve. I hope
+            you found this presentation interesting and that you will still
+            enjoy my projects.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- END OF SECTION 2 -->
+    <section class="section section--hidden" id="section-3">
+      <div class="section__title section__title--imgSliders">
+        <h2 class="section__description">conclusion</h2>
+        <h3 class="section__header">Take a closer look at my projects</h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide"><img src="img/a.png" alt="Photo 1" /></div>
+        <div class="slide"><img src="img/b.png" alt="Photo 2" /></div>
+        <div class="slide"><img src="img/c.png" alt="Photo 3" /></div>
+        <div class="slide"><img src="img/d.png" alt="Photo 4" /></div>
+    
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+    <!-- END OF SECTION 3 -->
+
+    <footer class="footer">
+      Copyright Igor Stankic
+      <script type="text/javascript">
+        var year = new Date();
+        document.write(year.getFullYear());
+      </script>
+      <img src="img/footer_logo.png" alt="footer logo" class="footer__logo" />
+      <p class="footer__contact">
+        You can contact me at
+        <a
+          target="_blank"
+          class="footer__link"
+          href="https://mail.google.com/mail/u/0/#inbox"
+          >stankic.igor1996@gmail.com</a
+        >
+        or on my linkedin account
+        <a
+          target="_blank"
+          class="footer__link"
+          href="https://www.linkedin.com/in/igor-stankic-003042214/"
+          ><i class="fab fa-linkedin lnk"></i
+        ></a>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
